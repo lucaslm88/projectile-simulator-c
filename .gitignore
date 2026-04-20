@@ -1,3 +1,18 @@
-*.exe
+# IDE Settings (CLion, IntelliJ, etc.)
+.idea/
+.vscode/
+
+# Build Directories
 cmake-build-debug/
 cmake-build-release/
+bin/
+obj/
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Temporary files
+*.tmp
+*.log
